@@ -1,0 +1,33 @@
+{
+  "name": "jcc-utils",
+  "version": "1.0.0",
+  "description": "前端工具函数",
+  "author": "Jichang Sun <jichangsun1990@gmail.com>",
+  "license": "MIT",
+  "main": "dist/jcc-utils.cjs.js",
+  "module": "dist/jcc-utils.esm.js",
+  "browser": "dist/jcc-utils.umd.js",
+  "types": "src/index.d.ts",
+  "type": "module",
+  "files": [
+    "src",
+    "dist/*.js"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.5",
+    "@babel/preset-env": "^7.24.5",
+    "@babel/preset-typescript": "^7.24.1",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.12.8",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "rollup": "^4.17.2",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "tslib": "^2.6.2"
+  }
+}
