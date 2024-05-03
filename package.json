@@ -1,12 +1,12 @@
 {
-  "name": "jcc-utils",
+  "name": "jcc-tools",
   "version": "1.0.0",
   "description": "前端工具函数",
   "author": "Jichang Sun <jichangsun1990@gmail.com>",
   "license": "MIT",
-  "main": "dist/jcc-utils.cjs.js",
-  "module": "dist/jcc-utils.esm.js",
-  "browser": "dist/jcc-utils.umd.js",
+  "main": "dist/jcc-tools.cjs.js",
+  "module": "dist/jcc-tools.esm.js",
+  "browser": "dist/jcc-tools.umd.js",
   "types": "src/index.d.ts",
   "type": "module",
   "files": [

@@ -8,6 +8,6 @@ declare namespace jccUtils {
   export function random(min: number, max: number): number
 }
 
-declare module 'jcc-utils' {
-  export = jccUtils
+declare module 'jcc-tools' {
+  export = jccTools
 }

@@ -5,18 +5,18 @@ export default {
   output: [
     {
       format: 'cjs', // 打包为commonjs格式
-      file: 'dist/jcc-utils.cjs.js', // 打包后的文件路径名称
-      name: 'jccUtils' // 打包后的默认导出文件名称
+      file: 'dist/jcc-tools.cjs.js', // 打包后的文件路径名称
+      name: 'jccTools' // 打包后的默认导出文件名称
     },
     {
       format: 'esm', // 打包为esm格式
-      file: 'dist/jcc-utils.esm.js',
-      name: 'jccUtils'
+      file: 'dist/jcc-tools.esm.js',
+      name: 'jccTools'
     },
     {
       format: 'umd', // 打包为umd通用格式
-      file: 'dist/jcc-utils.umd.js',
-      name: 'jccUtils',
+      file: 'dist/jcc-tools.umd.js',
+      name: 'jccTools',
       minifyInternalExports: true
     }
   ],
