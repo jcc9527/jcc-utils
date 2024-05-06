@@ -1,13 +1,1 @@
-(function (global, factory) {
-    typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
-    typeof define === 'function' && define.amd ? define(['exports'], factory) :
-    (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global.jccTools = {}));
-})(this, (function (exports) { 'use strict';
-
-    function random(min, max) {
-        return Math.floor(Math.random() * (max - min + 1)) + min;
-    }
-
-    exports.random = random;
-
-}));
+!function(e,t){"object"==typeof exports&&"undefined"!=typeof module?t(exports):"function"==typeof define&&define.amd?define(["exports"],t):t((e="undefined"!=typeof globalThis?globalThis:e||self).jccTools={})}(this,(function(e){"use strict";var t=/^1[3-9][0-9]{9}$/,n=/[\u4e00-\u9fa5\w]+([-+.'][\u4e00-\u9fa5\w]+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*/;e.isArray=function(e){return e instanceof Array||"[object Array]"===Object.prototype.toString.call(e)},e.isMail=function(e){return n.test(e)},e.isMobilePhone=function(e){return t.test(e)}}));

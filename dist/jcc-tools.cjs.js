@@ -1,7 +1,1 @@
-'use strict';
-
-function random(min, max) {
-    return Math.floor(Math.random() * (max - min + 1)) + min;
-}
-
-exports.random = random;
+"use strict";var t=/^1[3-9][0-9]{9}$/,r=/[\u4e00-\u9fa5\w]+([-+.'][\u4e00-\u9fa5\w]+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*/;exports.isArray=function(t){return t instanceof Array||"[object Array]"===Object.prototype.toString.call(t)},exports.isMail=function(t){return r.test(t)},exports.isMobilePhone=function(r){return t.test(r)};

@@ -1,3 +1,7 @@
-export function random(min: number, max: number): number {
-  return Math.floor(Math.random() * (max - min + 1)) + min
-}
+/**
+ * 统一导出所有函数
+ */
+
+export * from './regExp'
+export * from './is'
+export * from './floatCalc'

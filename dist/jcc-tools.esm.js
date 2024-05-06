@@ -1,5 +1,1 @@
-function random(min, max) {
-    return Math.floor(Math.random() * (max - min + 1)) + min;
-}
-
-export { random };
+var t=/^1[3-9][0-9]{9}$/,r=/[\u4e00-\u9fa5\w]+([-+.'][\u4e00-\u9fa5\w]+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*/;function e(r){return t.test(r)}function n(t){return r.test(t)}function u(t){return t instanceof Array||"[object Array]"===Object.prototype.toString.call(t)}export{u as isArray,n as isMail,e as isMobilePhone};

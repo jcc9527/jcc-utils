@@ -1,11 +1,24 @@
-declare namespace jccUtils {
+declare namespace jccTools {
   /**
-   * 生成数字范围内的随机数
-   * @param min 最小数字
-   * @param max 最大数字
-   * @returns number类型
+   * 判断是否为合法手机号
+   * @param input 任意值
+   * @returns boolean
    */
-  export function random(min: number, max: number): number
+  export function isMobilePhone(input: any): boolean
+
+  /**
+   * 判断是否为合法邮箱
+   * @param input 任意值
+   * @returns boolean
+   */
+  export function isMail(input: any): boolean
+
+  /**
+   * 判断是否为数组
+   * @param input 任意值
+   * @returns boolean
+   */
+  export function isArray(input: any): boolean
 }
 
 declare module 'jcc-tools' {
